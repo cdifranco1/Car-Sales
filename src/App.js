@@ -10,11 +10,12 @@ import Total from './components/Total';
 
 
 const App = (props) => {
+  console.log({props})
   return (
     <div className="boxes">
       <div className="box">
         <Header car={props.car} />
-        <AddedFeatures car={props.car} />
+        <AddedFeatures car={props.car} onClick={props.removeFeature} />
       </div>
       <div className="box">
         <AdditionalFeatures additionalFeatures={props.additionalFeatures} onClick={props.buyItem}/>
@@ -32,4 +33,4 @@ const mapStateToProps = (state) => {
   } 
 }
 
-export default connect(mapStateToProps, { buyItem })(App);
+export default connect(mapStateToProps, { buyItem, removeFeature })(App);
