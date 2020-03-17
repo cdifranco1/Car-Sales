@@ -44,7 +44,7 @@ Follow these steps for completing your project.
 - This is a really fun project, and one to show your family and friends when you've finished.
 - You will be starting with a structured and styled app
 - You have been commissioned to implement Redux as the state management system in this app
-- You have the freedom to manage the state how you would like - ie, connecting multiple components to pass data directly to them, or maybe connecting one component, and then putting the data into a context object.
+- You have the freedom to manage the state how you would like - ie, connecting multiple components to pass data directly to them, or maybe connecting one component, and then putting the data into a context object
 
 ## Directions
 
